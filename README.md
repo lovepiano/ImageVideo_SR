@@ -11,7 +11,7 @@
 | ---------- | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
 | DIV2K      | 1000张2048$\times$1080图，其中800张作为训练，100张作为验证，100张作为测试。 | png  | [下载](https://data.vision.ee.ethz.ch/cvl/DIV2K/)                    | 常用     |
 | Flickr2K   | 2650 张 2K图                                                 | png  | [下载](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)               | 常用     |
-| RealSR     | 真实场景数据集，通过相机变焦，对齐操作得到LR-HR图像对，且LR和HR分辨率相同 | -    | https://github.com/csjcai/RealSR                             | -        |
+| RealSR     | 真实场景数据集，通过相机变焦，对齐操作得到LR-HR图像对，且LR和HR分辨率相同 | -    | [下载](https://github.com/csjcai/RealSR)                             | -        |
 | T91        | 91张图像                                                     | png  | [下载](https://drive.google.com/drive/folders/1B3DJGQKB6eNdwuQIhdskA64qUuVKLZ9u) | 不常用   |
 | BSDS200    | [BSD500](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/)的一个子集，共200张训练图像 | png  | [下载](https://drive.google.com/drive/folders/1B3DJGQKB6eNdwuQIhdskA64qUuVKLZ9u) | 不常用   |
 | General100 | 100张训练图像                                                | png  | [下载](https://drive.google.com/drive/folders/1B3DJGQKB6eNdwuQIhdskA64qUuVKLZ9u) | 不常用   |
@@ -49,7 +49,7 @@
 
 | 名称                   | 描述                                     | 实现代码                                                     |
 | ---------------------- | ---------------------------------------- | ------------------------------------------------------------ |
-| PI（感知指数）         | 用来评估超分结果视觉上的好坏             | [代码链接](https://github.com/roimehrez/PIRM2018),  根据quick start进行操作即可，这个仅能计算PI指标，另一个是工具包，内部实现了多种指标的计算https://github.com/Maclory/SPSR/tree/master/metrics |
+| PI（感知指数）         | 用来评估超分结果视觉上的好坏             | [代码链接](https://github.com/roimehrez/PIRM2018),  这个根据quick start进行操作即可，这个仅能计算PI指标，另一个是工具包，内部实现了多种指标的计算，[代码链接](https://github.com/Maclory/SPSR/tree/master/metrics) |
 | LPIPS                  | 用于评估超分结果视觉上的好坏             | [代码链接](https://github.com/Maclory/SPSR/tree/master/metrics)          |
 | PSNR（峰值信噪比）     | 用于评估超分结果的保真度（像素上的差异） | [代码链接](https://github.com/Maclory/SPSR/tree/master/metrics)          |
 | SSIM（结构相似性指数） | 用于评估超分结果纹理结构上的完整性       | [代码链接](https://github.com/Maclory/SPSR/tree/master/metrics)          |
