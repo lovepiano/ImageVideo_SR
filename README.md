@@ -9,12 +9,12 @@
 
 | 名称       | 描述                                                         | 格式 | 下载链接                                                     | 使用程度 |
 | ---------- | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | -------- |
-| DIV2K      | 1000张2048$\times$1080图，其中800张作为训练，100张作为验证，100张作为测试。 | png  | https://data.vision.ee.ethz.ch/cvl/DIV2K/                    | 常用     |
-| Flickr2K   | 2650 张 2K图                                                 | png  | http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar               | 常用     |
+| DIV2K      | 1000张2048$\times$1080图，其中800张作为训练，100张作为验证，100张作为测试。 | png  | [下载](https://data.vision.ee.ethz.ch/cvl/DIV2K/)                    | 常用     |
+| Flickr2K   | 2650 张 2K图                                                 | png  | [下载(]http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)               | 常用     |
 | RealSR     | 真实场景数据集，通过相机变焦，对齐操作得到LR-HR图像对，且LR和HR分辨率相同 | -    | https://github.com/csjcai/RealSR                             | -        |
-| T91        | 91张图像                                                     | png  | https://drive.google.com/drive/folders/1B3DJGQKB6eNdwuQIhdskA64qUuVKLZ9u | 不常用   |
+| T91        | 91张图像                                                     | png  | [下载](https://drive.google.com/drive/folders/1B3DJGQKB6eNdwuQIhdskA64qUuVKLZ9u) | 不常用   |
 | BSDS200    | [BSD500](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/)的一个子集，共200张训练图像 | png  | https://drive.google.com/drive/folders/1B3DJGQKB6eNdwuQIhdskA64qUuVKLZ9u | 不常用   |
-| General100 | 100张训练图像                                                | png  | https://drive.google.com/drive/folders/1B3DJGQKB6eNdwuQIhdskA64qUuVKLZ9u | 不常用   |
+| General100 | 100张训练图像                                                | png  | [下载](https://drive.google.com/drive/folders/1B3DJGQKB6eNdwuQIhdskA64qUuVKLZ9u) | 不常用   |
 
 **测试集**
 
